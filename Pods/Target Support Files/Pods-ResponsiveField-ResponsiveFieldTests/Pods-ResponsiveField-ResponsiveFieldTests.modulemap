@@ -1,0 +1,6 @@
+module Pods_ResponsiveField_ResponsiveFieldTests {
+  umbrella header "Pods-ResponsiveField-ResponsiveFieldTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

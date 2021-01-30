@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017F0A40387555AF30EED3A7 /* libPods-ResponsiveField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 237DF7C7D39A6176265378C9 /* libPods-ResponsiveField.a */; };
+		687F868E8757C84704E350FB /* libPods-ResponsiveField-ResponsiveFieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A4B5345FB6B0C2BE988686 /* libPods-ResponsiveField-ResponsiveFieldTests.a */; };
+		D143029825C5B85000573971 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143028A25C5B85000573971 /* Flavor.swift */; };
+		D143029925C5B85000573971 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D143028C25C5B85000573971 /* Images.xcassets */; };
+		D143029A25C5B85000573971 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143028E25C5B85000573971 /* PickFlavorViewController.swift */; };
+		D143029B25C5B85000573971 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143028F25C5B85000573971 /* PickFlavorDataSource.swift */; };
+		D143029C25C5B85000573971 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143029125C5B85000573971 /* ScoopCell.swift */; };
+		D143029D25C5B85000573971 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143029225C5B85000573971 /* ScoopView.swift */; };
+		D143029E25C5B85000573971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D143029325C5B85000573971 /* Main.storyboard */; };
+		D143029F25C5B85000573971 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143029525C5B85000573971 /* IceCreamView.swift */; };
+		D14302A025C5B85000573971 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143029725C5B85000573971 /* RGBAColorFromString.swift */; };
 		D1DEB9C725C5B5D000E92C77 /* ResponsiveField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DEB9BD25C5B5D000E92C77 /* ResponsiveField.framework */; };
 		D1DEB9CC25C5B5D000E92C77 /* ResponsiveFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DEB9CB25C5B5D000E92C77 /* ResponsiveFieldTests.swift */; };
 		D1DEB9CE25C5B5D100E92C77 /* ResponsiveField.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DEB9C025C5B5D000E92C77 /* ResponsiveField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +34,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		237DF7C7D39A6176265378C9 /* libPods-ResponsiveField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ResponsiveField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD2B25C1F566EBBFC9E0163 /* Pods-ResponsiveField-ResponsiveFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResponsiveField-ResponsiveFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-ResponsiveField-ResponsiveFieldTests/Pods-ResponsiveField-ResponsiveFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62A4B5345FB6B0C2BE988686 /* libPods-ResponsiveField-ResponsiveFieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ResponsiveField-ResponsiveFieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707D5CBA59F1FA06DBB8C740 /* Pods-ResponsiveField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResponsiveField.release.xcconfig"; path = "Target Support Files/Pods-ResponsiveField/Pods-ResponsiveField.release.xcconfig"; sourceTree = "<group>"; };
+		79A4C116BE4E7F2D999AABBA /* Pods-ResponsiveField-ResponsiveFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResponsiveField-ResponsiveFieldTests.release.xcconfig"; path = "Target Support Files/Pods-ResponsiveField-ResponsiveFieldTests/Pods-ResponsiveField-ResponsiveFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B919DB4F5BC6773B53C62F4 /* Pods-ResponsiveField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResponsiveField.debug.xcconfig"; path = "Target Support Files/Pods-ResponsiveField/Pods-ResponsiveField.debug.xcconfig"; sourceTree = "<group>"; };
+		D143028A25C5B85000573971 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		D143028C25C5B85000573971 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D143028E25C5B85000573971 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		D143028F25C5B85000573971 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		D143029125C5B85000573971 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		D143029225C5B85000573971 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		D143029425C5B85000573971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D143029525C5B85000573971 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		D143029725C5B85000573971 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
 		D1DEB9BD25C5B5D000E92C77 /* ResponsiveField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResponsiveField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DEB9C025C5B5D000E92C77 /* ResponsiveField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsiveField.h; sourceTree = "<group>"; };
 		D1DEB9C125C5B5D000E92C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017F0A40387555AF30EED3A7 /* libPods-ResponsiveField.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +71,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DEB9C725C5B5D000E92C77 /* ResponsiveField.framework in Frameworks */,
+				687F868E8757C84704E350FB /* libPods-ResponsiveField-ResponsiveFieldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A597AF032B033DB5CBBB4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B919DB4F5BC6773B53C62F4 /* Pods-ResponsiveField.debug.xcconfig */,
+				707D5CBA59F1FA06DBB8C740 /* Pods-ResponsiveField.release.xcconfig */,
+				3CD2B25C1F566EBBFC9E0163 /* Pods-ResponsiveField-ResponsiveFieldTests.debug.xcconfig */,
+				79A4C116BE4E7F2D999AABBA /* Pods-ResponsiveField-ResponsiveFieldTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D143028925C5B85000573971 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D143028A25C5B85000573971 /* Flavor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D143028B25C5B85000573971 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D143028C25C5B85000573971 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D143028D25C5B85000573971 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D143028E25C5B85000573971 /* PickFlavorViewController.swift */,
+				D143028F25C5B85000573971 /* PickFlavorDataSource.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D143029025C5B85000573971 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D143029125C5B85000573971 /* ScoopCell.swift */,
+				D143029225C5B85000573971 /* ScoopView.swift */,
+				D143029325C5B85000573971 /* Main.storyboard */,
+				D143029525C5B85000573971 /* IceCreamView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D143029625C5B85000573971 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D143029725C5B85000573971 /* RGBAColorFromString.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		D1DEB9B325C5B5D000E92C77 = {
 			isa = PBXGroup;
 			children = (
 				D1DEB9BF25C5B5D000E92C77 /* ResponsiveField */,
 				D1DEB9CA25C5B5D000E92C77 /* ResponsiveFieldTests */,
 				D1DEB9BE25C5B5D000E92C77 /* Products */,
+				11A597AF032B033DB5CBBB4B /* Pods */,
+				F0CEA9CD60CB3FCADA7A75EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +156,11 @@
 		D1DEB9BF25C5B5D000E92C77 /* ResponsiveField */ = {
 			isa = PBXGroup;
 			children = (
+				D143029625C5B85000573971 /* Categories */,
+				D143028D25C5B85000573971 /* Controllers */,
+				D143028925C5B85000573971 /* Models */,
+				D143028B25C5B85000573971 /* Resources */,
+				D143029025C5B85000573971 /* Views */,
 				D1DEB9C025C5B5D000E92C77 /* ResponsiveField.h */,
 				D1DEB9C125C5B5D000E92C77 /* Info.plist */,
 			);
@@ -84,6 +174,15 @@
 				D1DEB9CD25C5B5D100E92C77 /* Info.plist */,
 			);
 			path = ResponsiveFieldTests;
+			sourceTree = "<group>";
+		};
+		F0CEA9CD60CB3FCADA7A75EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237DF7C7D39A6176265378C9 /* libPods-ResponsiveField.a */,
+				62A4B5345FB6B0C2BE988686 /* libPods-ResponsiveField-ResponsiveFieldTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1DEB9D125C5B5D100E92C77 /* Build configuration list for PBXNativeTarget "ResponsiveField" */;
 			buildPhases = (
+				7FE36195654E447157F8B2C4 /* [CP] Check Pods Manifest.lock */,
 				D1DEB9B825C5B5D000E92C77 /* Headers */,
 				D1DEB9B925C5B5D000E92C77 /* Sources */,
 				D1DEB9BA25C5B5D000E92C77 /* Frameworks */,
@@ -122,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1DEB9D425C5B5D100E92C77 /* Build configuration list for PBXNativeTarget "ResponsiveFieldTests" */;
 			buildPhases = (
+				6C3CCAF22D1A2285A6173797 /* [CP] Check Pods Manifest.lock */,
 				D1DEB9C225C5B5D000E92C77 /* Sources */,
 				D1DEB9C325C5B5D000E92C77 /* Frameworks */,
 				D1DEB9C425C5B5D000E92C77 /* Resources */,
@@ -177,6 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D143029925C5B85000573971 /* Images.xcassets in Resources */,
+				D143029E25C5B85000573971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +292,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C3CCAF22D1A2285A6173797 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResponsiveField-ResponsiveFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE36195654E447157F8B2C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResponsiveField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1DEB9B925C5B5D000E92C77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14302A025C5B85000573971 /* RGBAColorFromString.swift in Sources */,
+				D143029825C5B85000573971 /* Flavor.swift in Sources */,
+				D143029D25C5B85000573971 /* ScoopView.swift in Sources */,
+				D143029B25C5B85000573971 /* PickFlavorDataSource.swift in Sources */,
+				D143029C25C5B85000573971 /* ScoopCell.swift in Sources */,
+				D143029A25C5B85000573971 /* PickFlavorViewController.swift in Sources */,
+				D143029F25C5B85000573971 /* IceCreamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +371,17 @@
 			targetProxy = D1DEB9C825C5B5D000E92C77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D143029325C5B85000573971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D143029425C5B85000573971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1DEB9CF25C5B5D100E92C77 /* Debug */ = {
@@ -340,6 +508,7 @@
 		};
 		D1DEB9D225C5B5D100E92C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B919DB4F5BC6773B53C62F4 /* Pods-ResponsiveField.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +533,7 @@
 		};
 		D1DEB9D325C5B5D100E92C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707D5CBA59F1FA06DBB8C740 /* Pods-ResponsiveField.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,7 +558,9 @@
 		};
 		D1DEB9D525C5B5D100E92C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD2B25C1F566EBBFC9E0163 /* Pods-ResponsiveField-ResponsiveFieldTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CM34PRAQJX;
 				INFOPLIST_FILE = ResponsiveFieldTests/Info.plist;
@@ -406,7 +578,9 @@
 		};
 		D1DEB9D625C5B5D100E92C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A4C116BE4E7F2D999AABBA /* Pods-ResponsiveField-ResponsiveFieldTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CM34PRAQJX;
 				INFOPLIST_FILE = ResponsiveFieldTests/Info.plist;
